@@ -1,0 +1,200 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(212, 207, 207);
+    outline: none;
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+h1 {
+    background: linear-gradient(180deg, rgb(15, 62, 118), cyan);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, black, cyan);
+}
+
+.livroImagem {
+    filter: invert(80%);
+}
+
+.operacoes {
+    width: 50%;
+    height: 50%;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    border-radius: 50px;
+}
+
+.primeiraTela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.side {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 30%;
+    gap: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.divider {
+    border-left: 1px solid #ccc;
+    height: 100%;
+}
+
+.livroOperacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    margin-right: 5%;
+}
+
+.containerLista {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 5%;
+    overflow: auto;
+}
+
+.livroOperacoes button {
+    width: 30%;
+}
+
+.listadorContainer {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgb(15, 62, 118), cyan);
+    border-radius: 10px;
+    margin: 20px;
+    width: 20%;
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+.listadorContainer img {
+    align-self: center;
+    margin-top: 10px;
+}
+
+.listadorContainer p {
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+    ::placeholder {
+        color: #434242;
+    }
+
+    input {
+        width: 80%;
+        border-radius: 20px;
+        padding: 10px;
+        background-color: #c2c4c6;
+    }
+
+    button {
+        width: 30%;
+        height: 100%;
+        border: none;
+        cursor: pointer;
+        padding: 5px;
+        background-color: rgb(212, 207, 207);
+        outline: none;
+        border-radius: 10px;
+        font-size: 80%;
+        color: rgb(0, 0, 0);
+    }
+
+    h1 {
+        background: linear-gradient(180deg, rgb(15, 62, 118), cyan);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 35px;
+    }
+
+    .operacoes {
+        width: 80%;
+        height: 80%;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .side {
+        height: 15%;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+        margin-right: 0;
+        margin-left: 0;
+        gap: 0;
+        margin-bottom: 30%;
+    }
+
+    .side button {
+        border-radius: 0;
+        width: 100%;
+        color: rgb(25, 25, 221) !important;
+    }
+
+    .LivroButtonsTitulo {
+        display: none;
+    }
+
+    .listadorContainer {
+        width: 30%;
+    }
+
+    .containerLista {
+        margin-right: 0;
+        align-items: start;
+        justify-content: center;
+    }
+}

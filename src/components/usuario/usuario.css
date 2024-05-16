@@ -1,0 +1,30 @@
+.login{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+.botoesLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.botoesLogin button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 20%;
+    cursor: pointer;
+    color: black;
+}
+.voltar{
+    text-decoration: underline;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .botoesLogin button{
+        width: 30%;
+    }
+}
