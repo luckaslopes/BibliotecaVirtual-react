@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bibliotecaVirtual-react/static/css/main.ed7fec09.css",
+    "main.js": "/bibliotecaVirtual-react/static/js/main.0ce4be0e.js",
+    "index.html": "/bibliotecaVirtual-react/index.html",
+    "main.ed7fec09.css.map": "/bibliotecaVirtual-react/static/css/main.ed7fec09.css.map",
+    "main.0ce4be0e.js.map": "/bibliotecaVirtual-react/static/js/main.0ce4be0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed7fec09.css",
+    "static/js/main.0ce4be0e.js"
+  ]
+}
